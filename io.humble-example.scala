@@ -6,7 +6,7 @@ import io.humble.video.{Decoder, Demuxer, DemuxerStream, Global, MediaDescriptor
 import io.humble.video.awt.{MediaPictureConverter, MediaPictureConverterFactory}
 import scala.util.control.Breaks
 
-
+class IoHumbleExample{
   /**
   This function is a modified version with source from https://github.com/artclarke/humble-video/tree/master/humble-video-demos
   */
@@ -142,3 +142,4 @@ import scala.util.control.Breaks
   }
   
 playVideo("videoname.mp4")
+}
