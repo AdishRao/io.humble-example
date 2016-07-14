@@ -1,3 +1,5 @@
+import scala.util.{Failure, Success, Try}
+import java.io.{File, FileInputStream, FileOutputStream, IOException}
 import java.awt.image.BufferedImage
 import javax.imageio.ImageIO
 import io.humble.video.{Decoder, Demuxer, DemuxerStream, Global, MediaDescriptor, MediaPacket, MediaPicture, Rational}
